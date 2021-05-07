@@ -4,10 +4,11 @@ const Work = () => {
   const [hovered, setHovered] = useState(null);
   return (
     <div
-      className="border-2 border-red-800 relative"
+      id="work"
+      className="relative sm:p-20 p-10"
       onMouseOut={() => setHovered(null)}
     >
-      <p className="text-4xl text-center">
+      <p className="text-5xl text-center break-all">
         {/* Saving Serafino */}
         <div className="inline-block p-2">
           <a
@@ -18,7 +19,7 @@ const Work = () => {
             Saving Serafino - Gin Tonic
           </a>
           <img
-            className={`w-40 absolute ${
+            className={`z-10 w-40 absolute ${
               hovered !== "SavingSerafino" && "hidden"
             }`}
             src="/SavingSerafino.png"
@@ -35,7 +36,7 @@ const Work = () => {
             Leer
           </a>
           <img
-            className={`w-40 absolute ${hovered !== "Leer" && "hidden"}`}
+            className={`z-10 w-40 absolute ${hovered !== "Leer" && "hidden"}`}
             src="/Leer.png"
             alt=""
           />
@@ -50,7 +51,9 @@ const Work = () => {
             Floatin' (feat. Nzalistic, HNY BBQ & Crooked Cuz)
           </a>
           <img
-            className={`w-40 absolute ${hovered !== "Floatin" && "hidden"}`}
+            className={`z-10 w-40 absolute ${
+              hovered !== "Floatin" && "hidden"
+            }`}
             src="/Floatin.png"
             alt=""
           />
@@ -65,7 +68,7 @@ const Work = () => {
             Blubberblasen
           </a>
           <img
-            className={`w-40 absolute ${
+            className={`z-10 w-40 absolute ${
               hovered !== "Blubberblasen" && "hidden"
             }`}
             src="/Blubberblasen.png"

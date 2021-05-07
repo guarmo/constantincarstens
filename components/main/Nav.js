@@ -2,24 +2,28 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div className="border-2 border-red-500 flex justify-between">
-      <h1>ConstantinCarstens</h1>
+    <nav className="flex justify-between items-center">
+      <div className="border-2 border-white p-1">
+        <h1 className="uppercase text-lg tracking-wider">
+          Constantin Carstens
+        </h1>
+      </div>
 
       <ul className="flex">
         <li className="mr-4">
-          <a href="">Bio</a>
+          <a href="#bio">Bio</a>
         </li>
         <li className="mr-4">
-          <a href="">Work</a>
+          <a href="#work">Work</a>
         </li>
         <li className="mr-4">
-          <a href="">Contacts</a>
+          <a href="#contacts">Contacts</a>
         </li>
         <li>
-          <a href="">HeDuDa</a>
+          <a href="/heduda">HeDuDa</a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
