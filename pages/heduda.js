@@ -5,7 +5,7 @@ import Nav from "../components/heduda/Nav";
 
 const heduda = () => {
   return (
-    <div>
+    <div className="bg-black text-white h-screen">
       <Nav />
       <Concept />
       <Links />
