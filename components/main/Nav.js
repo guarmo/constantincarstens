@@ -6,13 +6,13 @@ const Nav = () => {
       <h1>Logo</h1>
 
       <ul className="flex">
-        <li>
+        <li className="mr-4">
           <a href="">Bio</a>
         </li>
-        <li>
+        <li className="mr-4">
           <a href="">Work</a>
         </li>
-        <li>
+        <li className="mr-4">
           <a href="">Contacts</a>
         </li>
         <li>
