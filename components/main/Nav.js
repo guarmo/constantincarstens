@@ -2,6 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
+    // @todo add hamburger menu on sm screens
     <nav className="flex justify-between items-center">
       <div className="border-2 border-white p-1">
         <h1 className="uppercase text-lg tracking-wider">

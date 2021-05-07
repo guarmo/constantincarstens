@@ -8,9 +8,10 @@ const Work = () => {
       className="relative sm:p-20 p-10"
       onMouseOut={() => setHovered(null)}
     >
-      <p className="text-5xl text-center break-all">
+      <h1 className="text-6xl">WORK</h1>
+      <p className="text-5xl text-center">
         {/* Saving Serafino */}
-        <div className="inline-block p-2">
+        <div className="p-2">
           <a
             href="https://www.youtube.com/watch?v=SIy2SaTYx3Q"
             target="_blank"
@@ -27,13 +28,13 @@ const Work = () => {
           />
         </div>{" "}
         · {/* Leer */}
-        <div className="inline-block p-2">
+        <div className="p-2">
           <a
             href="https://www.youtube.com/watch?v=3i-NmcDiNBI"
             target="_blank"
             onMouseOver={() => setHovered("Leer")}
           >
-            Leer
+            Churn Out Clique - Leer
           </a>
           <img
             className={`z-10 w-40 absolute ${hovered !== "Leer" && "hidden"}`}
@@ -42,13 +43,13 @@ const Work = () => {
           />
         </div>{" "}
         · {/* Floatin */}
-        <div className="inline-block p-2">
+        <div className="p-2">
           <a
             href="https://www.youtube.com/watch?v=I2zj129qJrM"
             target="_blank"
             onMouseOver={() => setHovered("Floatin")}
           >
-            Floatin' (feat. Nzalistic, HNY BBQ & Crooked Cuz)
+            Churn Out Clique - Floatin'
           </a>
           <img
             className={`z-10 w-40 absolute ${
@@ -59,19 +60,34 @@ const Work = () => {
           />
         </div>{" "}
         · {/* Blubberblasen */}
-        <div className="inline-block p-2">
+        <div className="p-2">
           <a
             href="https://www.youtube.com/watch?v=yFNQMrqlw0o"
             target="_blank"
             onMouseOver={() => setHovered("Blubberblasen")}
           >
-            Blubberblasen
+            Churn Out Clique - Blubberblasen
           </a>
           <img
             className={`z-10 w-40 absolute ${
               hovered !== "Blubberblasen" && "hidden"
             }`}
             src="/Blubberblasen.png"
+            alt=""
+          />
+        </div>{" "}
+        · {/* Heduda */}
+        <div className="p-2">
+          <a
+            href="/heduda"
+            target="_blank"
+            onMouseOver={() => setHovered("Heduda")}
+          >
+            HeDuDa
+          </a>
+          <img
+            className={`z-10 w-40 absolute ${hovered !== "Heduda" && "hidden"}`}
+            src="Heduda.png"
             alt=""
           />
         </div>
