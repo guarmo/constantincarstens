@@ -2,9 +2,9 @@ import React from "react";
 
 const Bio = () => {
   return (
-    <div className="border-2 border-red-600">
+    <div className="border-2 border-red-600 flex">
       <img className="w-40 h-auto" src="/consti.png" alt="" />
-      <p>
+      <p className="ml-4">
         Constantin Carstens is a Berlin based Sound Designer and -Engineer. At
         the age of 22 he finished with distinction his Advanced Diploma in Music
         Production and Sound Engineering at the renown Abbey Road Institute.

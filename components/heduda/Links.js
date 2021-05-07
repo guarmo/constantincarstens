@@ -2,8 +2,15 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <div>
-      <h1>Heduda Links</h1>
+    <div className="border-2 border-red-800">
+      <div class="grid grid-cols-3 gap-4 lg:gap-8">
+        <div className="bg-gray-900 h-40"></div>
+        <div className="bg-gray-900 h-40"></div>
+        <div className="bg-gray-900 h-40"></div>
+        <div className="bg-gray-900 h-40"></div>
+        <div className="bg-gray-900 h-40"></div>
+        <div className="bg-gray-900 h-40"></div>
+      </div>
     </div>
   );
 };
