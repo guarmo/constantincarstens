@@ -11,9 +11,9 @@
 
 This is a personal page developed for Berlin-based music producer and sound engineer Francesco Farro. It was developed with the following tools:
 
-[NextJS](https://nextjs.org/)
-[Tailwind](https://tailwindcss.com/)
-[React-icons](https://react-icons.github.io/react-icons/)
+- [NextJS](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [React-icons](https://react-icons.github.io/react-icons/)
 
 [Checkout the demo](https://constantincarstens-h4oifkj1r-guarmo.vercel.app/)
 
