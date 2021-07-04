@@ -5,11 +5,11 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="relative sm:p-20 p-10"
+      className="relative sm:p-20 p-10 break-words text-center"
       onMouseOut={() => setHovered(null)}
     >
-      <h1 className="text-6xl">WORK</h1>
-      <p className="text-5xl text-center">
+      <h1 className="text-6xl mb-8">WORK</h1>
+      <p className="text-5xl">
         {/* Saving Serafino */}
         <div className="p-2">
           <a

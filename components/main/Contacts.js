@@ -6,19 +6,24 @@ const Contacts = () => {
   return (
     <div id="contacts" className="py-20 relative text-5xl flex justify-center">
       <a
+        className="transition transform hover:scale-125"
         href="https://www.facebook.com/profile.php?id=100008687705479"
         target="_blank"
       >
         <AiOutlineFacebook />
       </a>
       <a
-        className="mx-4"
+        className="mx-4 transition transform hover:scale-125"
         href="https://www.instagram.com/heduda_flinkeswiesel"
         target="_blank"
       >
         <AiOutlineInstagram />
       </a>
-      <a href="https://soundcloud.com/hedudaflinkeswiesel" target="_blank">
+      <a
+        className="transition transform hover:scale-125"
+        href="https://soundcloud.com/hedudaflinkeswiesel"
+        target="_blank"
+      >
         <GrSoundcloud />
       </a>
     </div>
