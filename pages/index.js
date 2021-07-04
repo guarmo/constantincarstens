@@ -17,6 +17,7 @@ export default function Home() {
         />
         <meta name="keywords" content="Constantin Carstens" />
         <meta name="author" content="Armando Guarino" />
+        <base href="https://www.constantincarstens.com/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://metatags.io/" />

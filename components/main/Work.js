@@ -5,6 +5,7 @@ const Work = () => {
   return (
     <div
       id="work"
+      name="work"
       className="relative sm:p-20 p-10 break-words text-center"
       onMouseOut={() => setHovered(null)}
     >

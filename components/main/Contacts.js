@@ -4,7 +4,7 @@ import { GrSoundcloud } from "react-icons/gr";
 
 const Contacts = () => {
   return (
-    <div id="contacts" className="py-20 relative text-5xl flex justify-center">
+    <div id="contacts" name="contacts"  className="py-20 relative text-5xl flex justify-center">
       <a
         className="transition transform hover:scale-125"
         href="https://www.facebook.com/profile.php?id=100008687705479"

@@ -4,6 +4,7 @@ const Bio = () => {
   return (
     <div
       id="bio"
+      name="bio" 
       className="flex flex-col sm:flex-row items-center justify-center py-20"
     >
       <img className="w-80 h-auto mb-8 sm:mb-0" src="/main.jpg" alt="" />
