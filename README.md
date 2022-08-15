@@ -9,7 +9,7 @@
 
 ## Overview
 
-This is a personal page developed for Berlin-based music producer and sound engineer Francesco Farro. It was developed with the following tools:
+This is a personal page developed for Berlin-based music producer and sound engineer Constantin Carstens. It was developed with the following tools:
 
 - [NextJS](https://nextjs.org/)
 - [Tailwind](https://tailwindcss.com/)
