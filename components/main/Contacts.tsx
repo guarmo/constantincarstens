@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AiOutlineFacebook, AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineMail, AiOutlineInstagram, AiOutlinePhone } from "react-icons/ai";
 import data from "data";
 
 const Contacts = () => {
@@ -15,8 +15,9 @@ const Contacts = () => {
           href={contact.src}
           target="_blank"
         >
-          {contact.icon === "fb" && <AiOutlineFacebook />}
           {contact.icon === "insta" && <AiOutlineInstagram />}
+          {contact.icon === "email" && <AiOutlineMail />}
+          {contact.icon === "phone" && <AiOutlinePhone />}
         </Link>
       ))}
     </div>

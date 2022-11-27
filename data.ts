@@ -19,11 +19,9 @@ const data = {
     spatialization, sound design and music production.`,
   },
   contacts: [
-    {
-      src: "https://www.facebook.com/profile.php?id=100008687705479",
-      icon: "fb",
-    },
     { src: "https://www.instagram.com/heduda_flinkeswiesel", icon: "insta" },
+    { src: "mailto:constantincarstens@gmail.com ", icon: "email" },
+    { src: "tel:+4915781921071 ", icon: "phone" },
   ],
   work: [
     {
