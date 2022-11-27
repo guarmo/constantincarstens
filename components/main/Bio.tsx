@@ -6,7 +6,7 @@ const Bio = () => {
       id="bio"
       className="flex flex-col sm:flex-row items-center justify-center py-20"
     >
-      <Image className="w-80 h-auto mb-8 sm:mb-0" src="/main.jpg" alt="Main image" width={100} height={100} />
+      <Image className="w-80 h-auto mb-8 sm:mb-0" src="/main.jpg" alt="Main image" width={300} height={300} />
       <p className="bioP text-lg sm:ml-8 text-center">
         Constantin Carstens is a Berlin based Sound Designer and -Engineer. At
         the age of 22 he finished with a distinction in “Advanced Diploma in
