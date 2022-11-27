@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 
 const Nav = () => {
   return (
@@ -6,73 +6,74 @@ const Nav = () => {
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 lg:gap-8">
 
         {/* Subliminal */}
-        <a href="https://soundcloud.com/denied-area/subliminal" target="_blank">
+        <Link href="https://soundcloud.com/denied-area/subliminal" target="_blank">
           <img src="/Subliminal.png" alt="" />
           <h3>Subliminal</h3>
-        </a>
+        </Link>
 
         {/* Perzeption (Installationsaufbau) */}
-        <a href="https://vimeo.com/535892840" target="_blank">
-          <img src="/Perzeption.png" alt="" />
+        <Link href="https://vimeo.com/535892840" target="_blank">
+          <img src="/Perzeption.png" alt="Perzeption (Installationsaufbau) - Marlon Nicolaisen" />
           <h3>Perzeption (Installationsaufbau) - Marlon Nicolaisen</h3>
-        </a>
+        </Link>
 
         {/* Sound Installation (Documentation) */}
-        <a href="https://vimeo.com/536014499" target="_blank">
-          <img src="/Installation2.png" alt="" />
+        <Link href="https://vimeo.com/536014499" target="_blank">
+          <img src="/Installation2.png" alt="Sound Installation Janis Binder und Constantin Carstens" />
           <h3>Sound Installation Janis Binder und Constantin Carstens</h3>
-        </a>
+        </Link>
 
          {/* Sound Installation (Documentation) */}
-         <a href="https://vimeo.com/536008116" target="_blank">
-          <img className="w-full h-auto" src="/Installation.png" alt="" />
+         <Link href="https://vimeo.com/536008116" target="_blank">
+          <img className="w-full h-auto" src="/Installation.png" alt="Sound Installation Janis Binder und Constantin Carstens
+            (Documentation)" />
           <h3>
             Sound Installation Janis Binder und Constantin Carstens
             (Documentation)
           </h3>
-        </a>
+        </Link>
 
         {/* Lyte Confinement 9 */}
-        <a
+        <Link
           href="https://soundcloud.com/quotationmarks/lyte-confinement-radio-session-9-heduda"
           target="_blank"
         >
-          <img src="/LyteConfinement9.png" alt="" />
+          <img src="/LyteConfinement9.png" alt="The lyte confinement radio - session 9 - Heduda" />
           <h3>The lyte confinement radio - session 9 - Heduda</h3>
-        </a>
+        </Link>
 
         {/* Lyte Confinement 7 */}
-        <a
+        <Link
           href="https://soundcloud.com/quotationmarks/the-lyte-confinement-radio-session-7"
           target="_blank"
         >
-          <img src="/LyteConfinement7.png" alt="" />
+          <img src="/LyteConfinement7.png" alt="The lyte confinement radio - session 7 - Heduda" />
           <h3>The lyte confinement radio - session 7 - Heduda</h3>
-        </a>
+        </Link>
 
         {/* Session */}
-        <a
+        <Link
           href="https://soundcloud.com/quotationmarks/the-lyte-confinement-radio-session-2-heduda"
           target="_blank"
         >
-          <img src="/Session.png" alt="" />
+          <img src="/Session.png" alt="the lyte confinement radio - session 2" />
           <h3>the lyte confinement radio - session 2</h3>
-        </a>
+        </Link>
 
         {/* GUDDI */}
-        <a href="https://soundcloud.com/microbrew/heduda-guddi" target="_blank">
-          <img src="/Guddi.png" alt="" />
+        <Link href="https://soundcloud.com/microbrew/heduda-guddi" target="_blank">
+          <img src="/Guddi.png" alt="Guddi" />
           <h3>GUDDI</h3>
-        </a>
+        </Link>
 
         {/* Frohnatur */}
-        <a
+        <Link
           href="https://soundcloud.com/hedudaflinkeswiesel/sets/frohnatur"
           target="_blank"
         >
-          <img src="/Frohnatur.png" alt="" />
+          <img src="/Frohnatur.png" alt="Frohnatur" />
           <h3>Frohnatur</h3>
-        </a>
+        </Link>
       </div>
     </div>
   );
