@@ -1,5 +1,4 @@
 import data from "data";
-import Image from "next/image";
 
 const Bio = () => {
   return (
@@ -7,7 +6,7 @@ const Bio = () => {
       id="bio"
       className="flex flex-col sm:flex-row items-center justify-center py-20"
     >
-      <Image
+      <img
         className="w-80 h-auto mb-8 sm:mb-0"
         src="/main.jpg"
         alt="Main image"
