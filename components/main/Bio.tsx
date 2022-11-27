@@ -1,13 +1,12 @@
-import React from "react";
+import Image from "next/image";
 
 const Bio = () => {
   return (
     <div
       id="bio"
-      name="bio" 
       className="flex flex-col sm:flex-row items-center justify-center py-20"
     >
-      <img className="w-80 h-auto mb-8 sm:mb-0" src="/main.jpg" alt="" />
+      <Image className="w-80 h-auto mb-8 sm:mb-0" src="/main.jpg" alt="Main image" width={100} height={100} />
       <p className="bioP text-lg sm:ml-8 text-center">
         Constantin Carstens is a Berlin based Sound Designer and -Engineer. At
         the age of 22 he finished with a distinction in “Advanced Diploma in

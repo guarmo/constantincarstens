@@ -1,5 +1,3 @@
-import React from "react";
-
 const Header = () => {
   return (
     <div className="h-full">
@@ -7,8 +5,8 @@ const Header = () => {
         className="h-full"
         width="100%"
         height="100%"
-        loop="true"
-        autoplay="autoplay"
+        loop={true}
+        autoPlay={true}
         muted
       >
         <source src="/main-video.mp4" type="video/mp4" />

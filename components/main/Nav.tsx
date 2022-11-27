@@ -1,8 +1,7 @@
-import React from "react";
+import Link from "next/link";
 
 const Nav = () => {
   return (
-    // @todo add hamburger menu on sm screens
     <nav className="flex sm:justify-between flex-col sm:flex-row items-center">
       <div className="border-2 border-white p-1">
         <h1 className="uppercase text-lg tracking-wider">
@@ -12,16 +11,16 @@ const Nav = () => {
 
       <ul className="flex mt-5 sm:mt-0">
         <li className="mr-4">
-          <a href="#bio">Bio</a>
+          <Link href="#bio">Bio</Link>
         </li>
         <li className="mr-4">
-          <a name="work" href="#work">Work</a>
+          <Link href="#work">Work</Link>
         </li>
         <li className="mr-4">
-          <a name="contacts" href="#contacts">Contacts</a>
+          <Link href="#contacts">Contacts</Link>
         </li>
         <li>
-          <a href="/heduda">HeDuDa</a>
+          <Link href="/heduda">HeDuDa</Link>
         </li>
       </ul>
     </nav>
