@@ -1,15 +1,7 @@
 const data = {
   bio: {
     description: `
-    Constantin	Carstens	is	a	Berlin	based	Sound	Designer	and	-Engineer.	At	the	age	of	22
-    he	finished	with	a	distinction	in	“Advanced	Diploma	in	Music	Production	and	Sound
-    Engineering”	at	the	renowned	Abbey	Road	Institute.	Right	after	school,	Constantin	took
-    on	various	internships	and	worked	as	recording	&	mixing	engineer	in	different	Studios
-    (Bewake	Berlin,	Paraverse	Studio).
-    Constantin	combines	his	knowledge	with	his	curiosity	and	sense	for	experimentation
-    in	audio	to	achieve	something	unique	and	suitable	for	every	project.	Through	his
-    fascination	for	audio	and	music,	he	has	developed	a	wide	range	of	advanced	skills,	from
-    recording	and	mixing	to	spatialization,	sound	design	and	music	production.`,
+    Constantin	Carstens	is	a	Berlin	based	Sound	Designer	and	-Engineer.	At	the	age	of	22 he	finished	with	a	distinction	in	“Advanced	Diploma	in	Music	Production	and	Sound Engineering”	at	the	renowned	Abbey	Road	Institute.	Right	after	school,	Constantin	took on	various	internships	and	worked	as	recording	&	mixing	engineer	in	different	Studios (Bewake	Berlin,	Paraverse	Studio). \n\n Constantin	combines	his	knowledge	with	his	curiosity	and	sense	for	experimentation in	audio	to	achieve	something	unique	and	suitable	for	every	project.	Through	his fascination	for	audio	and	music,	he	has	developed	a	wide	range	of	advanced	skills,	from recording	and	mixing	to	spatialization,	sound	design	and	music	production.`,
   },
   contacts: [
     { src: "https://www.instagram.com/heduda_flinkeswiesel", icon: "insta" },

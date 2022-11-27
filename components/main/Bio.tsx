@@ -13,7 +13,7 @@ const Bio = () => {
         width={300}
         height={300}
       />
-      <p className="bioP text-lg sm:ml-8 text-center">{data.bio.description}</p>
+      <p className="bioP text-lg sm:ml-8 text-center whitespace-pre-line">{data.bio.description}</p>
     </div>
   );
 };
