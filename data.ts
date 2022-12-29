@@ -234,25 +234,25 @@ const data = {
     links: [
       {
         href: "https://linktr.ee/heduda",
-        imgSrc: "https://via.placeholder.com/400",
+        imgSrc: "https://res.cloudinary.com/dqqhf85vd/image/upload/v1672328914/contantin_carstens/mania_oyr16n.png",
         imgAlt: "HeDuDa - Mania EP",
         text: "HeDuDa - Mania EP",
       },
       {
         href: "https://www.instagram.com/p/CdLt8zEIrj0",
-        imgSrc: "https://via.placeholder.com/400",
+        imgSrc: "https://res.cloudinary.com/dqqhf85vd/image/upload/v1672329234/contantin_carstens/ausstellung_oqouja.png",
         imgAlt: "",
         text: "Installation - Perspektiven - Interims Gallery (Berlin)",
       },
       {
         href: "https://www.instagram.com/p/CiQSXvvjbAM/",
-        imgSrc: "https://via.placeholder.com/400",
+        imgSrc: "https://res.cloudinary.com/dqqhf85vd/image/upload/v1672330679/contantin_carstens/blurr_jixznb.png",
         imgAlt: "",
         text: "Installation - Blurr - Frappant (Hamburg)",
       },
       {
         href: "https://cashmereradio.com/episode/cashmere-guest-mixes-heduda-live-from-cashmere-hq/",
-        imgSrc: "https://via.placeholder.com/400",
+        imgSrc: "https://res.cloudinary.com/dqqhf85vd/image/upload/v1672328880/contantin_carstens/Cashmere_Radio_iwm3b0.png",
         imgAlt: "",
         text: "Live at Cashmere Radio (Berlin)",
       },
