@@ -246,7 +246,7 @@ const data = {
       },
       {
         href: "https://www.instagram.com/p/CiQSXvvjbAM/",
-        imgSrc: "https://res.cloudinary.com/dqqhf85vd/image/upload/v1672328645/Blurr_Frappant_ydbypi.png",
+        imgSrc: "https://res.cloudinary.com/dqqhf85vd/image/upload/v1672330679/contantin_carstens/blurr_jixznb.png",
         imgAlt: "",
         text: "Installation - Blurr - Frappant (Hamburg)",
       },
